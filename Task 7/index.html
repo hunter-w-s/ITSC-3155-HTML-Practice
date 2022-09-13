@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Excercise 6</title>
+</head>
+<body>
+
+<input id="name-input" type="text" placeholder="Enter your name" />
+<button id="my-button">Click Me</button>
+
+<script>
+<!-- Defines Button Variable by selecting the button -->
+  var myButton = document.querySelector('#my-button');
+<!-- Defines name variable from the input -->
+  var nameInput = document.querySelector('#name-input');
+
+<!-- Listens for event from the button -->
+  myButton.addEventListener('click', function () {
+<!-- Checks if the input is empty -->
+    if (nameInput.value !== '') {
+<!-- If its not empty it creates an alert for containing your name -->
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+	background-color:yellow;
+	font-family: Arial;
+}
+.main_title{
+	text-align:center;
+}
+.content {
+	padding-bottom:12px;
+}
